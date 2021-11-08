@@ -1,9 +1,9 @@
-let fullName = "Rachel Parker";
+let fullName: string = "Rachel Parker";
 console.log("Name: " + fullName.toUpperCase());
 console.log("Career: Software Development Trainee");
 console.log("Description: I don't like talking about myself very much.", '\n');
 
-let interests = ["Video Games", "Drawing", "Writing"];
+let interests: Array<string> = ["Video Games", "Drawing", "Writing"];
 
 function displayInterests () {
     for (let i = 0; i < interests.length; i++) {
